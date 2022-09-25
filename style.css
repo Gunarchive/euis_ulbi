@@ -1,0 +1,40 @@
+*{font-family: 'Roboto', sans-serif;
+}   
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('Frame\ 6.png');
+  background-size: 90%;
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+
+.form-label {
+    font-weight: 400;
+}
+.form-control {
+    font-weight: lighter;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: rgb(152, 152, 152);
+}
+.fa-google {
+    color: red;
+}

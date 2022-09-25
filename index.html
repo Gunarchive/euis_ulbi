@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6cccbf2deb.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        
+        <div class="row no-gutter">
+            <!-- container kiri-->
+            
+            <div class="col-md-5 bg-light">
+                <div class="logo">
+                    <img src="logo.png" alt="" style=" padding-top: 15px; position: fixed; ">
+                </div>
+                <div class="login d-flex align-items-center py-5">
+    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-10 col-xl-7 mx-auto" >
+                                <h3 class="display-6 text-center">Selamat Datang !!</h3>
+                                <p class="text-muted mb-4 text-center">Silahkan Login Untuk Melanjutkan</p>
+                                <form>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control rounded-pill border-0 shadow-sm px-4" id="exampleFormControlInput1" placeholder="nama@example.com">
+                                            <i class="fa-solid fa-envelope"></i>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="inputpassword" class="form-label">Password</label>
+                                            <input type="password" class="form-control rounded-pill border-0 shadow-sm px-4 text-primary" id="exampleFormControlInput1" placeholder="Password">
+                                            <i class="fa-solid fa-lock"></i>
+                                        </div>
+                                    <div class="custom-control custom-checkbox mb-3">
+                                        <input id="customCheck1" type="checkbox" checked class="custom-control-input">
+                                        <label for="customCheck1" class="custom-control-label">Remember password</label>
+                                    </div>
+
+                                    <div class="d-grid gap-2 col-12 mx-auto">
+                                        <button class="btn btn-primary text-uppercase mb-2" type="submit">Login</button>
+                                      </div>
+
+                                      <div class="divider d-flex align-items-center my-4">
+                                        <p class="text-center  mx-3 mb-0 text-muted mx-auto">OR</p>
+                                      </div>
+
+                                      <a class="btn btn-primary btn-lg btn-block mx-auto col-12" style="background-color: #E9EBFF; color:#282C52; font-weight: 500" href="#!" role="button">Login with google <i class="fa-brands fa-google me-2"></i></a>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!-- End -->
+    
+                </div>
+            </div><!-- End -->
+            <div class="col-md-7 d-none d-md-flex bg-image"></div>
+    
+    
+            <!-- The content half -->
+
+    
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
